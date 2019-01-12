@@ -7,7 +7,7 @@ and information*/
 function receiveMemes(json){
   const {memes} = json.data;
   return{
-    // type:RECEIVE_MEMES,
+    type:RECEIVE_MEMES,
     memes
   }
 }
