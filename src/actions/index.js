@@ -14,10 +14,10 @@ function receiveMemes(json){
 
 /* performs a fetch on the Memes api and returns
 the response */
-// function fetchMemesJson(){
-//   return fetch('https://api.imgflip.com/get_memes')
-//     .then(response => response.json())
-// }
+function fetchMemesJson(){
+  return fetch('https://api.imgflip.com/get_memes')
+    .then(response => response.json())
+}
 
 /*returns a function */
 export function fetchMemes(){
